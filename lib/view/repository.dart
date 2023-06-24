@@ -57,7 +57,7 @@ class _RepositoryPageState extends State<RepositoryPage> {
       ),
       body: isList == true ? _listView() : _gridView(),
       floatingActionButton: FloatingActionButton(
-          child: Icon(Icons.search_sharp),
+          child: Icon(Icons.search_sharp,color: Colors.red,),
           onPressed: () {
             Get.to(() => HomePage());
           }),

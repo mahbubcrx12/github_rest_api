@@ -131,7 +131,7 @@ class RepoDetails extends StatelessWidget {
         },
         child: Icon(
           Icons.home,
-          color: Colors.blueAccent,
+          color: Colors.redAccent,
           size: 30,
         ),
       ),
